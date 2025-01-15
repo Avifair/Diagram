@@ -1,9 +1,170 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.5">
   <diagram name="Page-1" id="mjoIo9GVvfLrUa51Crd4">
-    <mxGraphModel>
+    <mxGraphModel dx="2104" dy="696" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FVLfrgH4JOe6l1_wb_6b-1" target="FVLfrgH4JOe6l1_wb_6b-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="31" y="92" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FVLfrgH4JOe6l1_wb_6b-2" target="FVLfrgH4JOe6l1_wb_6b-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-2" value="&lt;b&gt;Step 1&lt;/b&gt;&lt;div&gt;A. Asset Pack Preparation&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4" y="570" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-5" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Browse through different asset stores and decide on the &lt;span style=&quot;background-color: rgb(102, 255, 255);&quot;&gt;main asset&lt;/span&gt;&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="26" y="225" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-15" value="&lt;b&gt;Step 2&lt;/b&gt;&lt;div&gt;B. World Layout Blockout&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4" y="912" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="FVLfrgH4JOe6l1_wb_6b-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-109" y="605" as="sourcePoint" />
+            <mxPoint x="-9" y="605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-18" value="A. Asset Pack Preparation (for each asset)" style="swimlane;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-629" y="390" width="520" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-36" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="FVLfrgH4JOe6l1_wb_6b-18" source="FVLfrgH4JOe6l1_wb_6b-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="264.58" y="185" as="sourcePoint" />
+            <mxPoint x="260" y="25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-37" value="&lt;p style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;1. Import LOD0 in blender&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;2. Minimize tri number / rebuild mesh so that it is optimized&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;3. Set up correct materials (set up blender nodes with alpha to view it correctly)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px;&quot;&gt;4. Join all meshes EXCEPT movable parts.&lt;/p&gt;&lt;p style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;5. Export to Unity&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-18">
+          <mxGeometry x="10" y="100" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-38" value="&lt;p style=&quot;margin-top: 0px;&quot;&gt;6. Import optimized LOD0&lt;/p&gt;&lt;p style=&quot;margin-top: 0px;&quot;&gt;7. If LOD0 is over 15k tris, create LOD1 with &lt;b style=&quot;background-color: rgb(102, 255, 255);&quot;&gt;AutoLOD&lt;/b&gt; tool.&lt;/p&gt;&lt;p style=&quot;margin-top: 0px;&quot;&gt;8. Set up LODs&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-18">
+          <mxGeometry x="275" y="100" width="240" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-39" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-18">
+          <mxGeometry x="228.5" y="47.5" width="63" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-26" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-18">
+          <mxGeometry x="90" y="35" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-27" value="Blender" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-18">
+          <mxGeometry x="100" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-29" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-18">
+          <mxGeometry x="355" y="35" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-30" value="Unity" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-18">
+          <mxGeometry x="370" y="40" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-40" value="B. Blockout Layout" style="swimlane;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-629" y="812" width="520" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-41" value="" style="group" vertex="1" connectable="0" parent="FVLfrgH4JOe6l1_wb_6b-40">
+          <mxGeometry x="90" y="35" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-42" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-41">
+          <mxGeometry width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-43" value="Blender" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-41">
+          <mxGeometry x="10" y="5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-44" value="" style="group" vertex="1" connectable="0" parent="FVLfrgH4JOe6l1_wb_6b-40">
+          <mxGeometry x="355" y="35" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-45" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;labelBorderColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-44">
+          <mxGeometry width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-46" value="Unity" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-44">
+          <mxGeometry x="15" y="5" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-47" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="FVLfrgH4JOe6l1_wb_6b-40" source="FVLfrgH4JOe6l1_wb_6b-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="264.58" y="185" as="sourcePoint" />
+            <mxPoint x="260" y="25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-48" value="&lt;p style=&quot;margin-top: 0px;&quot;&gt;1. Build out floors and terrain (no trees)&lt;/p&gt;&lt;p style=&quot;margin-top: 0px;&quot;&gt;2. Block out walls and stairs&lt;/p&gt;&lt;p style=&quot;margin-top: 0px;&quot;&gt;3. Block out booth positions&lt;/p&gt;&lt;p style=&quot;margin-top: 0px;&quot;&gt;4. Export everything into one object for testing&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-40">
+          <mxGeometry x="10" y="100" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-49" value="&lt;p style=&quot;margin-top: 0px;&quot;&gt;5. Redo the terrain using Unity Terrain tool&lt;/p&gt;&lt;p style=&quot;margin-top: 0px;&quot;&gt;6. Import blockout&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-40">
+          <mxGeometry x="275" y="100" width="240" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-58" value="&lt;p style=&quot;margin-top: 0px;&quot;&gt;7. Check scale and movement&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px;&quot;&gt;8. Repeat 1.-5. until satisfied&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-40">
+          <mxGeometry x="275" y="260" width="240" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-65" value="" style="group" vertex="1" connectable="0" parent="FVLfrgH4JOe6l1_wb_6b-40">
+          <mxGeometry x="223.5" y="41.25" width="73" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-50" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-65">
+          <mxGeometry width="63" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-61" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rotation=-180;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-65">
+          <mxGeometry x="10" y="12.5" width="63" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-69" value="" style="group" vertex="1" connectable="0" parent="FVLfrgH4JOe6l1_wb_6b-40">
+          <mxGeometry x="364.00488584474886" y="157.99579908675798" width="58.51858447488581" height="35.81840182648406" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-67" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rotation=-90;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-69">
+          <mxGeometry x="1.6757990867579906" y="-1.6757990867579622" width="35.81506849315069" height="39.166666666666664" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-68" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rotation=-270;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-69">
+          <mxGeometry x="21.027716894977118" y="-1.6724657534246603" width="35.81506849315069" height="39.166666666666664" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-56" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-40">
+          <mxGeometry x="355" y="202" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-57" value="VRChat&lt;div&gt;(PC)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-40">
+          <mxGeometry x="365" y="206" width="60" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-51" value="See Notion page&lt;div&gt;&lt;b&gt;Blender Build vs Modular Assets&lt;/b&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-749" y="842" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-70" value="C. Build the World" style="swimlane;whiteSpace=wrap;html=1;fillColor=default;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-629" y="1199" width="520" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-74" value="" style="group" vertex="1" connectable="0" parent="FVLfrgH4JOe6l1_wb_6b-70">
+          <mxGeometry x="92" y="35" width="117" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-75" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-74">
+          <mxGeometry width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-76" value="Unity" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-74">
+          <mxGeometry x="15" y="5" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-80" value="" style="group" vertex="1" connectable="0" parent="FVLfrgH4JOe6l1_wb_6b-74">
+          <mxGeometry x="260" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-81" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-80">
+          <mxGeometry width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-82" value="VRChat&lt;div&gt;(PC)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-80">
+          <mxGeometry x="10" y="6" width="60" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-77" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="FVLfrgH4JOe6l1_wb_6b-70" source="FVLfrgH4JOe6l1_wb_6b-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="264.58" y="185" as="sourcePoint" />
+            <mxPoint x="260" y="23" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-84" value="" style="group" vertex="1" connectable="0" parent="FVLfrgH4JOe6l1_wb_6b-70">
+          <mxGeometry x="223.5" y="41.25" width="73" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-85" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-84">
+          <mxGeometry width="63" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-86" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rotation=-180;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-84">
+          <mxGeometry x="10" y="12.5" width="63" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-90" value="&lt;p style=&quot;margin-top: 0px;&quot;&gt;1. Drag &amp;amp; drop modular assets made from &lt;b&gt;Step 1 &lt;/b&gt;following the blockout guidelines of &lt;b&gt;Step 2&lt;/b&gt;.&lt;/p&gt;&lt;p style=&quot;margin-top: 0px;&quot;&gt;2. Set up Skybox, Directional Light, Post Processing&lt;/p&gt;&lt;p style=&quot;margin-top: 0px;&quot;&gt;3. When necessary, build ad-hoc objects such as stairs and temporary walls using &lt;b style=&quot;background-color: rgb(102, 255, 255);&quot;&gt;ProBuilder&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px;&quot;&gt;4. Add key visual cues such as waterfall, particles, emissive objects&lt;/p&gt;&lt;p style=&quot;margin-top: 0px;&quot;&gt;5. Plant trees and other terrain objects&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-70">
+          <mxGeometry x="15" y="92" width="240" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="FVLfrgH4JOe6l1_wb_6b-91" value="&lt;p style=&quot;margin-top: 0px;&quot;&gt;6. Test the blockout and the overall environment&lt;/p&gt;&lt;p style=&quot;margin-top: 0px;&quot;&gt;&lt;i&gt;Mind that the environment is NOT BAKED&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px;&quot;&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="FVLfrgH4JOe6l1_wb_6b-70">
+          <mxGeometry x="272.5" y="92" width="240" height="229" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
